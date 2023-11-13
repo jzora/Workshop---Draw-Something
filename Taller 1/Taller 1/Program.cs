@@ -76,15 +76,15 @@ namespace Taller_1
                 }
             }
 
-            private bool ContieneLetras(int longitud, string palabraEnArchivo, string letras)
+            private bool ContieneLetras(int longitud, string palabraEnTxt, string letras)
             {
                 int letrasEncontradas = 0;
 
                 foreach (char letra in letras)
                 {
-                    if (palabraEnArchivo.Contains(letra.ToString()))
+                    if (palabraEnTxt.Contains(letra.ToString()))
                     {
-                        palabraEnArchivo = palabraEnArchivo.Remove(palabraEnArchivo.IndexOf(letra), 1);
+                        palabraEnTxt = palabraEnTxt.Remove(palabraEnTxt.IndexOf(letra), 1);
                         letrasEncontradas++;
 
                         if (letrasEncontradas == longitud)
@@ -96,62 +96,12 @@ namespace Taller_1
                 return false;
             }
 
-            //private void GenerarPalabras(string palabra1, string palabra2, List<string> palabrasGen)
-            //{
-            //    if (string.IsNullOrEmpty(palabra2))
-            //    {
-            //        palabrasGen.Add(palabra1);
-            //        return;
-            //    }
-
-            //    foreach (string palabraTxt in palabras)
-            //    {
-            //        if(palabraTxt.Length == palabra2.Length)
-            //        {
-            //            string nuevaPalabra = palabraTxt;
-            //            for(int i = 0; i  < nuevaPalabra.Length; i++) 
-            //            {
-            //                if (palabra2[i] != '*')
-            //                {
-            //                    nuevaPalabra = nuevaPalabra.Substring(0, i) + palabra2[i] + nuevaPalabra.Substring(i + 1);
-            //                }
-            //            }
-            //            palabrasGen.Add(nuevaPalabra);
-            //            //string newString = palabra1 + palabraTxt;
-            //            //string newString2 = palabra2.Substring(0, 1) + palabra2.Substring(1);
-            //            //GenerarPalabras(newString, newString2, palabrasGen);
-            //        }
-            //    }
-            //    //for (int i = 0; i < longPalabra; i++)
-            //    //{
-            //    //    string newString = palabra1 + palabra2[i];
-            //    //    string newString2 = palabra2.Substring(0, i) + palabra2.Substring(i + 1);
-            //    //    GenerarPalabras(newString, newString2, palabrasGen);
-            //    //}
-            //}
-
             private List<string> CargarPalabras()
             {
                 List<string> archivoTxt = new List<string>();
                 archivoTxt.AddRange(File.ReadAllLines(archivoPalabras));
-
                 return archivoTxt;
             }
-
-            public void MostrarPalabras(int longitud)
-            {
-                Console.WriteLine($"Palabras parecidas con longitud {longitud}");
-
-                foreach (string palabra in palabras)
-                {
-                    if (palabra.Length == longitud)
-                    {
-                        Console.WriteLine(palabra);
-                    }
-                }
-            }
-
-
         }
     }
 }
