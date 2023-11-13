@@ -10,3 +10,16 @@ C:\Users\jvelasquez\Desktop\Cursos\Taller\Taller 1\Taller 1\bin\Debug\Hunspellx8
 C:\Users\jvelasquez\Desktop\Cursos\Taller\Taller 1\Taller 1\bin\Debug\NHunspell.dll
 C:\Users\jvelasquez\Desktop\Cursos\Taller\Taller 1\Taller 1\bin\Debug\NHunspell.pdb
 C:\Users\jvelasquez\Desktop\Cursos\Taller\Taller 1\Taller 1\obj\Debug\Taller 1.csproj.CopyComplete
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\Hunspellx64.dll
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\Hunspellx86.dll
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\Taller 1.exe.config
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\Taller 1.exe
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\Taller 1.pdb
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\NHunspell.dll
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\NHunspell.pdb
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\obj\Debug\Taller 1.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\obj\Debug\Taller 1.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\obj\Debug\Taller 1.csproj.CopyComplete
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\obj\Debug\Taller 1.exe
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\obj\Debug\Taller 1.pdb
+C:\Users\USUARIO\Source\Repos\Workshop---Draw-Something\Taller 1\Taller 1\bin\Debug\palabras.txt
