@@ -62,6 +62,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="0_palabras_todas.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="palabras.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

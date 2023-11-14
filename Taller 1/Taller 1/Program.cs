@@ -19,14 +19,17 @@ namespace Taller_1
             Console.Write($"Ingrese los caracteres que aparecen en la pantalla: ");
             palabrasInput = Console.ReadLine();
 
-            string rutaArchivo = "palabras.txt";
+            string rutaArchivo = "0_palabras_todas.txt";
             PosiblesPalabras genPalabras = new PosiblesPalabras(rutaArchivo);
             List<string> genPalabras1 = genPalabras.Palabras(numCaracteres, palabrasInput);
 
             Console.WriteLine("Palabras posibles: ");
             foreach (string palabra in genPalabras1)
             {
-                Console.WriteLine(palabra);
+                if (palabra.Length == numCaracteres)
+                {
+                    Console.WriteLine(palabra);
+                }
             }
         }
 
